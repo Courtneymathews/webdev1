@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(255, 0, 0);
+    font-family: Arial;
+    background: purple;
+}
+
+p {
+font-size: 10px
+
+}
+
+div {
+    font-size: 40px;
+    background: rgb(225,200,255);
+width: 100px;
+height: 100px;
+padding: 20px;
+border: 10px solid color blue;
+}
