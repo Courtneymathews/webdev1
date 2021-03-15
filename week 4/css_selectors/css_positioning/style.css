@@ -1,0 +1,17 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: purple;
+    margin: 1em;
+}
+
+.absolute {
+    background: blue;
+    width: 400px;
+position: absolute;
+top: 50%;
+left: 300px;
+bottom: 10px;
+transform: 
+right: 10px;
+}

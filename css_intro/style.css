@@ -1,19 +1,33 @@
 h1 {
-    color: rgb(255, 0, 0);
+    color: seagreen;
     font-family: Arial;
     background: purple;
 }
 
 p {
-font-size: 10px
+    font-size: 30px;
+    background: lightgreen;
+    width: 400px;
 
 }
 
-div {
+div{
     font-size: 40px;
-    background: rgb(225,200,255);
-width: 100px;
-height: 100px;
-padding: 20px;
-border: 10px solid color blue;
+    background: lightsteelblue;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid blue;
+    margin: 40px;
+}
+
+h4 {
+    font-size: 50px;
+    background: orange;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid grey;
+    margin: 0 auto;
+    text-align: center;
 }

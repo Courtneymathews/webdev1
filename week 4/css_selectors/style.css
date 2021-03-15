@@ -1,0 +1,29 @@
+.subtitle {
+    background: plum;
+}
+
+.text{
+    font-size: 12px;
+}
+
+.cool-text{
+    font-family: 'comic Sans MS';
+font-size: 20px;
+color: magenta;
+}
+
+.cool-text{
+    font-family: 'comic Sans MS';
+    font-size: 20px;
+    color:magenta
+}
+
+.green-text {
+    color:green
+}
+
+#whatever{
+    width: 200px;
+    height: 200px;
+    background: orange;
+}

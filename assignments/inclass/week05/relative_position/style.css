@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial;
+  }
+
+  .box{
+      width: 20vmin;
+      height: 20vmin;
+      border: 2px solid green;
+      margin: 1em;
+  }
+
+.relative-demo {
+position: relative;
+border: 2px solid red;
+width: 22vmin;
+height: 22vmin;
+top: 50vw;
+left: 50vw;
+}
+
+section {
+margin: 1em 0;
+background: #ddd;
+padding: 1em;
+}
+
+.parent {
+background: cornflowerblue;
+width: 50%;
+height: 50%;
+left: 10px
+}
+
+.child {
+    background: coral;
+    position: absolute;
+    left: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+
+.grandchild{
+    width: 50%;
+    height: 50%;
+    left: 10px;
+    position: absolute;
+    background: lightgreen;
+}
+
+.dialog-box{
+    width: 50vw;
+    height:20vw;
+    border: 2px solid black;
+    margin: 1em;
+}
+
+.close-button{
+    background: darkred;
+    color: white;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    padding: .25em;
+}
