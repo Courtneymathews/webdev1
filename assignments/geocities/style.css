@@ -1,0 +1,205 @@
+body {
+background-image:url('imgandgifs/arena.png');
+background-size:cover;
+background-clip: content-box;
+}
+
+header {
+    padding-top: 150px;
+    text-align: center;
+}
+.fight {
+    width: 350px;
+}
+
+.scorp1 {
+    top: 58%;
+    position: absolute;
+    left: 20%;
+}
+
+.scorp2 {
+    height: 350px;
+    position: absolute;
+    top: 175%;
+    left:20%;
+}
+
+.scorp3 {
+    height: 320px;
+    position: absolute;
+    top: 300%;
+    left:10%;
+}
+
+.scorp4 {
+    height: 323px;
+    position: absolute;
+    top: 418%;
+    left:28%;
+}
+
+.scorp5 {
+    height: 338px;
+    position: absolute;
+    top: 525%;
+    left:28%;
+}
+
+.scorp6 {
+    height: 210px;
+    position: absolute;
+    top: 660%;
+    left:35%;
+}
+
+.scorp7 {
+    height: 118px;
+    position: absolute;
+    top: 678%;
+    left:15%;
+}
+
+
+.sub1 {
+    top: 58%;
+    position: absolute;
+    right: 20%;
+    display: block;
+}
+.sub1 {
+    transform: scaleX(-1);
+}
+
+.sub2 {
+    height: 350px;
+    position: absolute;
+    top: 150%;
+    right: 60%;
+}
+.sub2 {
+    transform: scaleX(-1);
+}
+
+.sub3 {
+    height: 200px;
+    position: absolute;
+    top: 165%;
+    right: 35%;
+}
+.sub3 {
+    transform: scaleX(-1);
+}
+
+.sub4 {
+    height: 100px;
+    position: absolute;
+    top: 215%;
+    right: 15%;
+}
+.sub4 {
+    transform: scaleX(-1);
+}
+
+.sub5 {
+    height: 200px;
+    position: absolute;
+    top: 313%;
+    right: 15%;
+}
+.sub5 {
+    transform: scaleX(-1);
+}
+
+.sub6 {
+    height: 250px;
+    position: absolute;
+    top: 290%;
+    right: 33%;
+}
+.sub6 {
+    transform: scaleX(-1);
+}
+
+.sub7 {
+    height: 310px;
+    position: absolute;
+    top: 300%;
+    right: 50%;
+}
+.sub7 {
+    transform: scaleX(-1);
+}
+
+.sub8 {
+    height: 310px;
+    position: absolute;
+    top: 420%;
+    right: 20%;
+}
+.sub8 {
+    transform: scaleX(-1);
+}
+
+.sub9 {
+    height: 50px;
+    position: absolute;
+    top: 423%;
+    right: 38%;
+}
+.sub9 {
+    transform: scaleX(-1);
+}
+
+.sub10 {
+    height: 350px;
+    position: absolute;
+    top: 525%;
+    right: 30%;
+}
+.sub10 {
+    transform: scaleX(-1);
+}
+
+.sub11 {
+    height: 350px;
+    position: absolute;
+    top: 640%;
+    right:38%;
+}
+.sub11 {
+    transform: scaleX(-1);
+}
+
+.sub12 {
+    height: 420px;
+    position: absolute;
+    top: 745%;
+    right:45%;
+    padding-bottom: 170px;
+}
+.sub12 {
+    transform: scaleX(-1);
+}
+
+
+
+.finish {
+    width: 500px;
+    position: absolute;
+    top: 490%;
+    right: 31%;
+}
+
+.fat {
+    width: 500px;
+    position: absolute;
+    top: 600%;
+    right: 31%;
+}
+.subwins {
+    width: 500px;
+    position: absolute;
+    top: 720%;
+    right: 31%;
+}

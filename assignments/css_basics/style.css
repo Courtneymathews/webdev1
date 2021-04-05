@@ -1,0 +1,60 @@
+*{margin: 0; padding: 0;box-sizing: border-box; }
+
+body {
+    background: pink
+}
+
+h1 {
+    background: darkgray;
+    text-align: center;
+    padding: 0.5em;
+
+}
+
+h2 {
+    background:cornflowerblue;
+    text-align: center;
+    padding: .5em;
+}
+
+
+header {
+    background:lightgreen;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+main { width: 90vw;
+margin: 0 auto;
+}
+
+section {
+    /*min-height: 50vh;*/
+    background: orange;
+    margin: 2em 0;
+}
+
+section {
+    padding-bottom: 1em;
+}
+
+h3 {
+    padding: 1em;
+    background: tan;
+}
+
+
+p {
+padding:1em;
+
+}
+
+footer {
+    background: cornflowerblue;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
