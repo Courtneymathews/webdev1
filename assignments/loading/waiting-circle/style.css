@@ -1,0 +1,32 @@
+body {
+    background: chartreuse;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background: red;
+    margin: 1rem;
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.a { animation-delay: 0s; }
+.b { animation-delay: .5s; }
+.c { animation-delay: 1s; }
+.d { animation-delay: 1.5s; }
+.e { animation-delay: 2s; }
+
+@keyframes rainbow {
+    0% {
+        background: red;
+        left: 0;
+    }
+    100% {
+        background: blue;
+        left: 80vw;
+    }
+}

@@ -1,0 +1,42 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgoldenrodyellow;
+}
+
+section {
+  height: 100vmin;
+}
+
+
+.outer {
+  width: 50vmin;
+  height: 50vmin;
+  border: 2px solid green;
+  margin: 1em
+}
+.box1{
+  width: 30vmin;
+  height: 30vmin;
+  border: 2px solid orange;
+  margin: 1em;
+}
+.box2 {
+  width: 20vmin;
+  height: 20vmin;
+  border: 2px solid violet;
+  margin: 1em;
+}
+.box3 {
+  width: 10vmin;
+  height: 10vmin;
+  border: 2px solid olive;
+  margin: 1em;
+}
+.box4 {
+  width: 5vmin;
+  height: 5vmin;
+  border: 2px solid cornflowerblue;
+  margin: 1em;
+}

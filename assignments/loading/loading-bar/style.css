@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: cornflowerblue;
+    
+}
+
+/* .wrapper {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.outer {
+  border: 2px solid black;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90vw;
+    height: 30vmin;
+}
+
+
+.box {
+  /* position: absolute; */
+    animation-name: change-color;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  @keyframes change-color {
+    
+    0% {
+      background: crimson;
+      width: 0;
+      /* top: 0;
+      left: 0; */
+    }
+    
+    100% {
+      background: yellow;
+      width: 100%;
+      /* top: 0;
+      left: 0; */
+    }
+
+    /* 100% {
+      background: yellow;
+      width: 80%;
+      top: 80vh;
+      left: 0;
+
+    } */
+    
+}
+

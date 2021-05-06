@@ -1,0 +1,21 @@
+body {
+    background: cornflowerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    font-size: 4em;
+    color: darkblue;
+}
+
+nav a {
+    margin: 0 1em;
+    color: orchid;
+}
+
+.home {
+    position: absolute;
+    top:0;
+    left:0;
+}
