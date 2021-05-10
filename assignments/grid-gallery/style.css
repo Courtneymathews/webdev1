@@ -26,3 +26,7 @@ object-fit: cover;
 .fnal {
     grid-column: 1/4;
 }
+
+.multi-row {
+    grid-row: 2 / span 2;
+}
