@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-42%);
+    color: blanchedalmond;
+}
+
+body{
+    background-image: url(../assignments/assets/Home\ for\ webdev\ webpage.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.phone-container {
+    background: cornflowerblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: .75rem;
+    border-radius: 3vmin;
+}
